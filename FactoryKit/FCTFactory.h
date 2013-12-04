@@ -13,8 +13,7 @@
 
 @interface FCTFactory : NSObject
 
-@property (nonatomic) NSMutableDictionary *builderRegistry;
-@property (nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, readonly) NSManagedObjectContext *managedObjectContext;
 
 - (instancetype)initWithManagedObjectContext:(NSManagedObjectContext *)context;
 

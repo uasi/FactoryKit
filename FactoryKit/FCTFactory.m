@@ -10,6 +10,14 @@
 
 #import "FCTBuilder.h"
 
+@interface FCTFactory ()
+
+@property (nonatomic, readwrite) NSManagedObjectContext *managedObjectContext;
+
+@property (nonatomic) NSMutableDictionary *builderRegistry;
+
+@end
+
 @implementation FCTFactory
 
 - (instancetype)initWithManagedObjectContext:(NSManagedObjectContext *)context
