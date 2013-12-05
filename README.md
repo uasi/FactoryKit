@@ -69,7 +69,17 @@ it simply add the following line to your Podfile:
 
 Tomoki Aonuma ([@uasi](https://twitter.com/uasi))
 
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+Feature requests and bug reports are welcome. Feel free to submit an issue or
+contact the author on Twitter.
+
 ## License
 
 FactoryKit is available under the MIT license. See the LICENSE file for more info.
-
